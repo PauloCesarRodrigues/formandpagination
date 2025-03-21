@@ -18,7 +18,7 @@ interface paginationMetaProps{
 
 export default function Products(){
   const [currentPage, setCurrentPage] = useState(1)
-  const [isInfiniteScrollOn, setIsInfiniteScrollOn] = useState(true)
+  const [isInfiniteScrollOn, setIsInfiniteScrollOn] = useState(false)
   const [paginationMeta, setPaginationMeta] = useState<paginationMetaProps>()
 
   const router = useRouter()
