@@ -23,7 +23,7 @@ export default function Home() {
       email,
       name
     })
-    reset()
+      reset()
   }
 
   const router = useRouter()
@@ -38,7 +38,7 @@ export default function Home() {
       <main className={styles.mainContainer}>
         <h1 className={styles.title}>Bem-vindo ao formulário</h1>
         <form className={styles.formContainer} onSubmit={handleSubmit(handleFormSendData)}>
-          <input className={styles.formInput}{...register('email')} placeholder="Nome"></input>
+          <input className={styles.formInput}{...register('name')} placeholder="Nome"></input>
           <input className={styles.formInput}{...register('email')} placeholder="E-mail"></input>
           <button className={styles.button} disabled={isSubmitting} type="submit">Enviar</button>
       </form>
