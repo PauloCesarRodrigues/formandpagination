@@ -1,0 +1,80 @@
+.mainContainer{
+  width: 100vw;
+  height: 90vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+.title{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #afafaf
+}
+
+.text{
+  font-size: 0.8rem;
+  color: gray
+}
+
+.formInput{
+  border: none;
+  outline: none;
+  border-radius: 6px;
+
+  height: 2.5rem;
+  width: 12.5rem;
+
+  padding: 0 1rem;
+
+  color: #adaeb7;
+}
+
+.button{
+  height: 2.5rem;
+  width: 12.5rem;
+
+  border-radius: 6px;
+
+  border: none;
+  outline: none;
+
+  cursor: pointer;
+
+  &:hover{
+    background-color: #555555;
+  }
+}
+
+.changePageButton{
+  margin-left: 2rem;
+  margin-top: 2rem;
+  border-radius: 6px;
+
+  position: fixed;
+
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  height: 2rem;
+  width: 8rem;
+
+  background-color: #353535;
+
+  color: gray;
+
+  &:hover{
+    background-color: #555555;
+    color: #adaeb7;
+  }
+}

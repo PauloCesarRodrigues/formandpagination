@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "productName": "Iphone 11 PRO MAX BRANCO",
+      "price": "4599",
+      "id": "a1b2c3d4"
+    },
+    {
+      "productName": "Samsung Galaxy S22 Ultra",
+      "price": "5399",
+      "id": "e5f6g7h8"
+    },
+    {
+      "productName": "MacBook Pro M2",
+      "price": "14999",
+      "id": "i9j0k1l2"
+    },
+    {
+      "productName": "PlayStation 5",
+      "price": "4799",
+      "id": "m3n4o5p6"
+    },
+    {
+      "productName": "Xbox Series X",
+      "price": "4699",
+      "id": "q7r8s9t0"
+    },
+    {
+      "productName": "Monitor Gamer LG UltraGear",
+      "price": "1899",
+      "id": "u1v2w3x4"
+    },
+    {
+      "productName": "Mouse Gamer Logitech G PRO X",
+      "price": "599",
+      "id": "y5z6a7b8"
+    },
+    {
+      "productName": "Teclado Mecânico Redragon Kumara",
+      "price": "389",
+      "id": "c9d0e1f2"
+    },
+    {
+      "productName": "Headset HyperX Cloud II",
+      "price": "799",
+      "id": "g3h4i5j6"
+    },
+    {
+      "productName": "Smart TV Samsung 55''",
+      "price": "3999",
+      "id": "k7l8m9n0"
+    },
+    {
+      "productName": "Echo Dot 5ª Geração",
+      "price": "349",
+      "id": "o1p2q3r4"
+    },
+    {
+      "productName": "Apple Watch Series 8",
+      "price": "4999",
+      "id": "s5t6u7v8"
+    },
+    {
+      "productName": "Notebook ASUS ROG Strix G15",
+      "price": "7999",
+      "id": "w9x0y1z2"
+    },
+    {
+      "productName": "Cadeira Gamer ThunderX3",
+      "price": "899",
+      "id": "a3b4c5d6"
+    }
+  ]
+}
