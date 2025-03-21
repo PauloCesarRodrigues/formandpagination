@@ -26,12 +26,6 @@ export default function handler(
   const firstItemOnPage = (page - 1) * productsPerPage;
   const lastItemOnPage = firstItemOnPage + productsPerPage;
 
-  console.log('productsData:', productsData);
-  console.log('typeof productsData.products:', typeof productsData.products);
-  console.log('Array.isArray(productsData.products):', Array.isArray(productsData.products));
-  console.log('productsData.products.length:', productsData.products.length);
-  console.log('firstItemOnPage:', firstItemOnPage, 'lastItemOnPage:', lastItemOnPage);
-
   const products = productsData.products.slice(firstItemOnPage, lastItemOnPage);
 
   if (isInfiniteScroll) {
